@@ -2,7 +2,7 @@
 This is guide on how to issue wildcard certificate for your domain on your own NS server using customized [DNSChef](https://github.com/iphelix/dnschef) with [certbot](https://certbot.eff.org/).
 
 # :lock: Why?
-I've stumbled upon this problem, when I tried to issue wildcard certificate to use with my [interactsh-server](https://github.com/projectdiscovery/interactsh) instance.<br><br>
+I've stumbled upon this problem when I tried to issue wildcard certificate to use with [interactsh-server](https://github.com/projectdiscovery/interactsh) instance.<br><br>
 After some *voodoo googling* I've found no materials that would guide me or even give exact steps to issue wildcard certificate for my domain. So, this is it.
 
 # 🔐 How does it work?
