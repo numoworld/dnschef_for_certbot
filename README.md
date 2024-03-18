@@ -43,7 +43,7 @@ I've tried to do this with [DNSChef](https://github.com/iphelix/dnschef), but it
 - Press Enter in terminal with `certbot`
 - Wait
 - ???
-- [Go watch some cats](meow.camera)
+- [Go watch some cats](https://meow.camera)
 # Notes
 Code snipped used to modify DNSChef is obtained from [dnschef_updated](https://github.com/irsdl/dnschef_updated) repository ([commit](https://github.com/iphelix/dnschef/commit/4f7e5764e0572aafce020614149218d7e40c5d30)).
 ```python
