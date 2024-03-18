@@ -7,7 +7,7 @@ After some *voodoo googling* I've found no materials that would guide me or even
 
 # 🔐 How does it work?
 So, the easiest way to issue certificate is using [certbot](https://certbot.eff.org/). It helps you to issue LetsEncrypt certificate.<br><br>
-To issue wildcard certificates, you need to prove you have access to your nameserver. It's quite easy to do if you are using default NS given to you by your domain registrar. But not if you have custom NS records pointing to your server.<br><br>
+To issue wildcard certificates, you need to prove you have access to your nameserver. It's quite easy to do if you are using default NS given to you by your domain registrar. But it's not if you have custom NS records pointing to your server.<br><br>
 So, two things that your nameserver needs to do is host two DNS records: CAA and TXT. <br>
 CAA records "allows" some entities to issue a certificate for your domain.<br>
 TXT record is a challenge, given by certbot to prove that you're in control of given nameserver.<br><br>
